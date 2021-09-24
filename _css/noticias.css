@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.clearfix{
+    clear: both;
+}
+
+body{
+    margin-top: 0px;
+}
+
+div#interface{
+    width: 1030px;
+    margin: auto;
+    background-color: white;
+}
+
+/* Formatação do cabeçalho */
+
+header#cabecalho{
+    background-color: #22A0A0;
+    width: auto;
+    height: 158px;
+    
+}
+
+header#cabecalho img#logo{
+    float: left;
+    margin-top: 40px;
+    margin-left: 105px;
+}
+
+header#cabecalho div#pesquisa{
+    float: left;
+    width: 250px;
+    height: 38px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 146px;
+    margin-top: 79px;
+}
+
+div#pesquisa img{
+    float: right;
+    margin-top: 4px;
+    margin-right: 4px;
+    width: 32px;
+    height: 26px;
+    left: 593px;
+    top: 115.12px;
+}
+
+#menu ul{
+    float: left;
+    margin-top: 79px;
+    margin-left: 85px;
+    list-style: none;
+}
+
+#menu li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+#menu li:hover{
+    color: white;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+
+header#titulo{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+div#esquerda{
+    float: left;
+    width: 623px;
+    border-right: 1px solid  #22A0A0;
+}
+
+#america{
+    width: 477px;
+    margin-left: 105px;
+}
+
+#bolivia,#gramado{
+    float: left;
+    margin-bottom: 41px;
+}
+
+#equador,#rio{
+    float: right;
+    margin-bottom: 41px;
+}
+
+#noticias-menores{
+    width: 477px;
+    margin-left: 105px;
+}
+
+#noticias-menores article{
+    width: 215px;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+article h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+article h3{
+    font-family: Arial;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+aside#direita{
+    float: right;
+    width: 400px;
+}
+
+#mexico{
+    margin-left: 17px;
+    width: 283px;
+}
+
+/*Formatação do rodape*/
+
+footer#rodape{
+
+    bottom: 0px;
+    background: #22A0A0;
+    height: 115px;
+    padding-top: 40px;
+}
+
+footer#rodape p{
+    margin: 0px;
+    color: #ffffff;
+}
+
+footer#rodape img{
+    width: 102px;
+    height: 76px;
+}
+
+p#dados{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+p.dados2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 70px;
+}
+        
+div#logob {
+    position: absolute;
+    float: right;
+    width: 102px;
+    height: 76px;
+    margin-top: -70px;
+    margin-left: 60%;
+} 
